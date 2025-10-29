@@ -57,23 +57,24 @@ body{
 
  background-color: var(--bg-light);
  color: var(--text-dark);
- margin: 30px;
  line-height: 1.7;
 }
 
 header{
+    margin: 30px;
 grid-area: header;
 }
 
 nav{
 grid-area: nav;
-border-left: 2px;
-border-left-color: black;
-border-left-style:groove;
-margin-left: 8px;
+border: 2px;
+border-color: black;
+border-style:groove;
+ margin: 20px;
 }
 
 main{
+    margin: 30px;
    Grid-area: main;
 }
 
@@ -101,11 +102,14 @@ h2{
 }
 h3{
    font-family: var(--font-main);
-   font-size: 1rem;
+   font-size: 1.2rem;
 }
 h4{
    font-family: var(--font-main);
    font-size: 0.67rem;
+}
+p{
+   font-family: var(--font-main);
 }
 strong{
    color: darkred;
