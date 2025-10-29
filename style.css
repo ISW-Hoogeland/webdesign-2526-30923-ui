@@ -70,6 +70,7 @@ grid-area: nav;
 border-left: 2px;
 border-left-color: black;
 border-left-style:groove;
+margin-left: 8px;
 }
 
 main{
