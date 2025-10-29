@@ -41,8 +41,8 @@
    --font-main: 'bricolage grotesque', sans-serif;
 
    --h1-bg: rgb(255, 212, 193);
-   --h1-text: rgb(49, 49, 0);
-   --h2-text: rgb(4, 28, 4);
+   --h1-text: rgb(0, 0, 0);
+   --h2-text: rgb(129, 112, 36);
    --h2-bg: var(--h1-bg)
 }
 
@@ -79,6 +79,7 @@ main{
 
 Footer{
 grid-area: footer;
+background-color: rgb(234, 158, 44);
 }
 
 h1 {
@@ -104,5 +105,9 @@ h3{
 }
 h4{
    font-family: var(--font-main);
-   font-size: 0.5rem;
+   font-size: 0.67rem;
+}
+strong{
+   color: darkred;
+   font-weight:bolder;
 }
