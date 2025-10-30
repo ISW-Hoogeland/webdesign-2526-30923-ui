@@ -73,6 +73,9 @@ border-style:groove;
  margin: 20px;
 }
 
+.nav1{
+   height:115px;
+}
 main{
     margin: 30px;
    Grid-area: main;
