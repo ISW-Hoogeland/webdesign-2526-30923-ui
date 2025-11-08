@@ -42,7 +42,7 @@
 
    --h1-bg: rgb(255, 212, 193);
    --h1-text: rgb(0, 0, 0);
-   --h2-text: rgb(129, 112, 36);
+   --h2-text: rgb(128, 63, 92);
    --h2-bg: var(--h1-bg)
 }
 
@@ -105,7 +105,8 @@ h2{
 }
 h3{
    font-family: var(--font-main);
-   font-size: 1.2rem;
+   font-size: 1rem;
+   font-weight: 400;
 }
 h4{
    font-family: var(--font-main);
@@ -115,6 +116,6 @@ p{
    font-family: var(--font-main);
 }
 strong{
-   color: darkred;
-   font-weight:bolder;
+   color: rgb(24, 0, 0);
+   font-weight:900;
 }
