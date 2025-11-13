@@ -84,6 +84,7 @@ main{
 Footer{
 grid-area: footer;
 background-color: rgb(234, 158, 44);
+
 }
 
 h1 {
@@ -93,12 +94,12 @@ background-color: var(--h1-bg);
    padding: 6px;
    border-radius: 14px;
    text-align: center;
-   font-size: 2.3rem;
+   font-size: 3.3rem;
 }
 h2{
    font-family: var(--font-main);
    color: var(--h2-text);
-   font-size: 1.6rem;
+   font-size: 2.3rem;
    border-bottom: 2px;
    padding-bottom: 5px;
    margin-top: 30px;
@@ -114,11 +115,22 @@ h4{
 }
 p{
    font-family: var(--font-main);
+   font-size: 1.5rem;
 }
 strong{
    color: rgb(24, 0, 0);
    font-weight:900;
 }
 img{
-   float:right;
+   float: right;
+}
+
+.links { 
+   float: left;
+   width: 71%;
+}
+
+article {
+   display: block;
+   clear: both
 }
