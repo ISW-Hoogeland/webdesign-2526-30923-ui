@@ -33,12 +33,14 @@ grid-area: header;
 nav{
 grid-area: nav;
 border: 2px;
-border-color: black;
+background-color: var(--h1-bg);
+border-color: rgb(220, 157, 130);
 border-style:groove; 
  margin: 20px;
 }
 
 .nav1{
+
    height:115px;
 }
 main{
