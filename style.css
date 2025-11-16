@@ -1,13 +1,13 @@
 /************************* DEBUG SETTINGS *************************/
 
 :root {
-   --bg-light: rgb(255, 238, 231);
-   --text-dark: rgb(0, 0, 0);
+   --bg-light: #EEEEFF;
+   --text-dark: #010B14;
    --font-main: 'bricolage grotesque', sans-serif;
 
-   --h1-bg: rgb(255, 212, 193);
-   --h1-text: rgb(0, 0, 0);
-   --h2-text: rgb(128, 63, 92);
+   --h1-bg: #99DFEA;
+   --h1-text: #011627;
+   --h2-text: #186A77;
    --h2-bg: var(--h1-bg)
 }
 
@@ -27,14 +27,14 @@ body{
 
 header{
     margin: 30px;
-grid-area: header;
+    grid-area: header;
 }
 
 nav{
 grid-area: nav;
 border: 2px;
 background-color: var(--h1-bg);
-border-color: rgb(220, 157, 130);
+border-color: #67D0E0;
 border-style:groove; 
  margin: 20px;
 }
@@ -50,18 +50,19 @@ main{
 
 Footer{
 grid-area: footer;
-background-color: rgb(234, 158, 44);
+background-color: var(--h1-bg);
 
 }
 
 h1 {
 background-color: var(--h1-bg);
-   font-family: var(--font-);
+   font-family: var(--font-main);
    color: var(--h1-text);
    padding: 6px;
    border-radius: 14px;
    text-align: center;
    font-size: 3.3rem;
+   margin-bottom: 20px;
 }
 h2{
    font-family: var(--font-main);
@@ -73,19 +74,22 @@ h2{
 }
 h3{
    font-family: var(--font-main);
-   font-size: 1rem;
+   font-size: 1.45rem;
    font-weight: 400;
+   color: var(--text-dark);
 }
 h4{
    font-family: var(--font-main);
    font-size: 0.67rem;
+   color: var(--text-dark);
 }
 p{
    font-family: var(--font-main);
    font-size: 1.2rem;
+   color: var(--text-dark);
 }
 strong{
-   color: rgb(24, 0, 0);
+   color: #000000;
    font-weight:900;
 }
 img{
